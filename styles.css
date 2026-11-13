@@ -526,3 +526,19 @@ img,svg,video{max-width:100%;height:auto}
   br{display:inline}
   .section-head h2 br,.credentials-grid h2 br,.hero-left h1 br{display:none}
 }
+
+/* Extra mobile safety */
+@media (max-width: 560px){
+  .about-grid,.about-text,.about-card,.about-info{max-width:100%;overflow-wrap:anywhere}
+  .about-text p,.about-desc,.lead,p,li{overflow-wrap:break-word;word-break:normal;max-width:100%}
+  .section{padding:50px 0}
+  .section-about{padding:40px 0}
+  .about-text h2{font-size:22px}
+  .about-card{padding:14px}
+  .about-photo{min-height:200px}
+  .footer-inner{grid-template-columns:1fr}
+  .footer-brand{grid-column:span 1}
+  .topbar-inner{flex-wrap:wrap}
+  .hero-right{min-height:240px}
+  .hero-right img{object-position:center}
+}
