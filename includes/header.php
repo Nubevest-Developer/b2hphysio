@@ -20,7 +20,7 @@ $page_desc = isset($page_desc) ? $page_desc : 'B2H Physiotherapy in Sunshine, Vi
 <header class="header">
   <div class="container header-inner">
     <a href="index.php" class="logo" aria-label="B2H Physiotherapy">
-      <img src="images/logo-mark.svg" alt="B2H Physiotherapy" class="logo-img" />
+      <img src="images/logo.svg" alt="B2H Physiotherapy" class="logo-img" />
     </a>
     <nav class="nav" id="nav">
       <a href="index.php" class="<?= $active==='home'?'active':'' ?>">Home</a>
