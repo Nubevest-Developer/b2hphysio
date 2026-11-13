@@ -552,3 +552,11 @@ img,svg,video{max-width:100%;height:auto}
   .feature-text{font-size:14px;line-height:1.35;overflow-wrap:break-word;flex:1 1 auto;min-width:0}
   .feature-text br{display:inline}
 }
+
+/* Feature strip: 2 per row on mobile */
+@media (max-width: 560px){
+  .feature-strip-inner{grid-template-columns:1fr 1fr;gap:12px 10px}
+  .feature-text{font-size:13px}
+  .feature-icon{width:30px;height:30px}
+  .feature-icon svg{width:26px;height:26px}
+}
