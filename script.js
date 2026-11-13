@@ -1,9 +1,15 @@
-// Mobile nav toggle
+// Mobile nav drawer
 const hamburger = document.getElementById('hamburger');
 const nav = document.getElementById('nav');
+const navClose = document.getElementById('nav-close');
+const navOverlay = document.getElementById('nav-overlay');
+function openNav(){ nav.classList.add('open'); navOverlay && navOverlay.classList.add('open'); document.body.classList.add('nav-locked'); }
+function closeNav(){ nav.classList.remove('open'); navOverlay && navOverlay.classList.remove('open'); document.body.classList.remove('nav-locked'); }
 if (hamburger && nav) {
-  hamburger.addEventListener('click', () => nav.classList.toggle('open'));
-  nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
+  hamburger.addEventListener('click', openNav);
+  navClose && navClose.addEventListener('click', closeNav);
+  navOverlay && navOverlay.addEventListener('click', closeNav);
+  nav.querySelectorAll('a').forEach(a => a.addEventListener('click', closeNav));
 }
 
 // Year
