@@ -19,7 +19,7 @@
 
       <article class="service-card" id="back-pain">
         <div class="service-head">
-          <span class="service-icon"><img src="images/services/back-pain.png" alt="" width="40" height="40" /></span>
+          <span class="service-icon"><img src="images/services/back-pain.png" alt="" width="56" height="56" /></span>
           <h3>Back Pain</h3>
         </div>
         <p>Assessment and management of back discomfort and stiffness — helping you move more freely in daily life.</p>
@@ -35,7 +35,7 @@
 
       <article class="service-card" id="chronic-pain">
         <div class="service-head">
-          <span class="service-icon"><img src="images/services/chronic-pain.png" alt="" width="40" height="40" /></span>
+          <span class="service-icon"><img src="images/services/chronic-pain.png" alt="" width="56" height="56" /></span>
           <h3>Chronic Pain</h3>
         </div>
         <p>Support for people living with persistent pain and movement difficulties, with a plan that fits your pace.</p>
@@ -115,7 +115,7 @@
 
       <article class="service-card" id="rejuvenate">
         <div class="service-head">
-          <span class="service-icon"><img src="images/services/rejuvenate.png" alt="" width="40" height="40" /></span>
+          <span class="service-icon"><img src="images/services/rejuvenate.png" alt="" width="56" height="56" /></span>
           <h3>Rejuvenate &amp; Wellness</h3>
         </div>
         <p>Support for mobility, flexibility and general physical wellbeing — keeping you feeling your best.</p>

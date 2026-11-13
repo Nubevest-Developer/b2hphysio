@@ -201,9 +201,9 @@ a:hover{color:var(--red-dark)}
 .service-head{display:flex;align-items:center;gap:12px;margin-bottom:12px}
 .service-icon{
   color:var(--red);display:inline-flex;align-items:center;justify-content:center;
-  flex-shrink:0;width:40px;height:40px;
+  flex-shrink:0;width:56px;height:56px;background:transparent;
 }
-.service-icon img{width:40px;height:40px;object-fit:contain;display:block}
+.service-icon img,.service-icon svg{width:56px;height:56px;object-fit:contain;display:block;background:transparent}
 .service-card h3{font-size:18px;color:var(--black);font-weight:700;margin:0}
 .service-card p{color:#555;font-size:14.5px;line-height:1.55;margin:0}
 .service-arrow{
