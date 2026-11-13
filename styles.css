@@ -34,6 +34,7 @@ a:hover{color:var(--red-dark)}
 }
 .logo-text{font-size:19px;font-weight:700}
 .logo-img{display:block;height:auto;width:200px;max-width:100%;flex-shrink:0}
+@media (max-width:640px){.logo-img{width:160px}}
 .logo-img-light{width:200px;background:#fff;padding:12px 16px;border-radius:12px;box-sizing:content-box}
 @media (max-width:640px){.logo-img{width:150px}}
 .nav{display:flex;gap:28px;align-items:center}
