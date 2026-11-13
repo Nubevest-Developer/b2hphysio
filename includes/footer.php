@@ -23,8 +23,7 @@
   <div class="container footer-inner">
     <div class="footer-brand">
       <div class="logo logo-light">
-        <span class="logo-mark">B2H</span>
-        <span class="logo-text">Physiotherapy</span>
+        <img src="images/logo-mark.svg" alt="B2H Physiotherapy" class="logo-img logo-img-light" />
       </div>
       <p class="muted-light">Back to a healthier &amp; happier life.</p>
       <p class="muted-light">Personalised physiotherapy care in Sunshine, Victoria &mdash; helping you manage pain, move better and live well.</p>

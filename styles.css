@@ -33,6 +33,9 @@ a:hover{color:var(--red-dark)}
   font-weight:800;letter-spacing:.3px;font-size:17px;line-height:1;
 }
 .logo-text{font-size:19px;font-weight:700}
+.logo-img{display:block;height:46px;width:auto;max-width:100%}
+.logo-img-light{height:52px;filter:brightness(0) invert(1)}
+@media (max-width:640px){.logo-img{height:38px}}
 .nav{display:flex;gap:28px;align-items:center}
 .nav a{color:#2a2a2a;font-weight:500;font-size:15px;position:relative;padding:4px 0}
 .nav a:hover{color:var(--red)}
