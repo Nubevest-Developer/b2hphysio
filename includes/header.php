@@ -26,8 +26,6 @@ $page_desc = isset($page_desc) ? $page_desc : 'B2H Physiotherapy in Sunshine, Vi
       <a href="index.php" class="<?= $active==='home'?'active':'' ?>">Home</a>
       <a href="about.php" class="<?= $active==='about'?'active':'' ?>">About</a>
       <a href="services.php" class="<?= $active==='services'?'active':'' ?>">Services</a>
-      <a href="what-to-expect.php" class="<?= $active==='expect'?'active':'' ?>">What to Expect</a>
-      <a href="fees.php" class="<?= $active==='fees'?'active':'' ?>">Fees &amp; Rebates</a>
       <a href="faqs.php" class="<?= $active==='faqs'?'active':'' ?>">FAQs</a>
       <a href="contact.php" class="<?= $active==='contact'?'active':'' ?>">Contact</a>
     </nav>

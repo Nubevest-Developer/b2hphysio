@@ -35,14 +35,12 @@
         <li><a href="index.php">Home</a></li>
         <li><a href="about.php">About</a></li>
         <li><a href="services.php">Services</a></li>
-        <li><a href="what-to-expect.php">What to Expect</a></li>
       </ul>
     </div>
 
     <div class="footer-col">
       <h5>Information</h5>
       <ul>
-        <li><a href="fees.php">Fees &amp; Rebates</a></li>
         <li><a href="faqs.php">FAQs</a></li>
         <li><a href="contact.php">Contact</a></li>
         <li><a href="https://calendly.com/b2hphysio/lynnkhoo" target="_blank" rel="noopener">Book Online</a></li>
