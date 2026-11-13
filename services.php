@@ -115,7 +115,7 @@
 
       <article class="service-card" id="rejuvenate">
         <div class="service-head">
-          <span class="service-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-2 3-3 6-3 9 1 0 2-1 3-3 1 2 2 3 3 3 0-3-1-6-3-9z"/><path d="M4 14c2 2 5 3 8 3-1-2-3-3-5-4-1 0-2 0-3 1z"/><path d="M20 14c-2 2-5 3-8 3 1-2 3-3 5-4 1 0 2 0 3 1z"/><path d="M9 19c1 1 2 2 3 2 1 0 2-1 3-2"/></svg></span>
+          <span class="service-icon"><img src="images/services/rejuvenate.png" alt="" width="40" height="40" /></span>
           <h3>Rejuvenate &amp; Wellness</h3>
         </div>
         <p>Support for mobility, flexibility and general physical wellbeing — keeping you feeling your best.</p>
