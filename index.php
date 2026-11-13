@@ -68,7 +68,7 @@
       </div>
       <div class="about-card">
         <div class="about-photo">
-          <img src="images/lynn.webp" alt="Lynn Khoo, APAM Physiotherapist" onerror="this.style.display='none';this.parentNode.classList.add('no-photo');" />
+          <img src="images/lynn.png" alt="Lynn Khoo, APAM Physiotherapist" onerror="this.style.display='none';this.parentNode.classList.add('no-photo');" />
         </div>
         <div class="about-info">
           <h4>Lynn Khoo</h4>
