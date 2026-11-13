@@ -571,3 +571,6 @@ img,svg,video{max-width:100%;height:auto}
   .about-desc{font-size:14.5px;line-height:1.65}
   .about-info .role{font-size:14px}
 }
+
+.footer-credit a{color:var(--red);font-weight:600;text-decoration:none}
+.footer-credit a:hover{text-decoration:underline}
