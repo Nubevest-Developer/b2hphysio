@@ -236,22 +236,21 @@
   </div>
 </footer>
 
-<!-- Calendly -->
+<!-- Calendly badge widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<script>
+<script type="text/javascript">
 window.addEventListener('load', function() {
-  if (typeof Calendly !== 'undefined') {
-    Calendly.initBadgeWidget({
-      url: 'https://calendly.com/b2hphysio/lynnkhoo',
-      text: 'Schedule time with me',
-      color: '#e90032',
-      textColor: '#ffffff',
-      branding: false
-    });
-  }
+  if (typeof Calendly === 'undefined') return;
+  Calendly.initBadgeWidget({
+    url: 'https://calendly.com/b2hphysio/lynnkhoo',
+    text: 'Schedule time with me',
+    color: '#0069ff',
+    textColor: '#ffffff',
+    branding: false
+  });
 });
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function(){
   document.querySelectorAll('a[href*="calendly.com/b2hphysio"]').forEach(function(a){
     a.addEventListener('click', function(e){
       if (typeof Calendly !== 'undefined') {
@@ -262,6 +261,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
+<!-- Calendly badge widget end -->
 <script src="script.js"></script>
 </body>
 </html>
