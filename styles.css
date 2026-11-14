@@ -38,6 +38,7 @@ a:hover{color:var(--red-dark)}
 .logo-img-light{width:200px;background:#fff;padding:12px 16px;border-radius:12px;box-sizing:content-box}
 @media (max-width:640px){.logo-img{width:150px}}
 .nav{display:flex;gap:28px;align-items:center}
+.nav-head,.nav-overlay{display:none}
 .nav a{color:#2a2a2a;font-weight:500;font-size:15px;position:relative;padding:4px 0}
 .nav a:hover{color:var(--red)}
 .nav a.active{color:var(--red);font-weight:600}
