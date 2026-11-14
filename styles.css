@@ -120,8 +120,10 @@ a:hover{color:var(--red-dark)}
 /* ===== Why Choose Us ===== */
 .why-choose{
   padding:80px 0;position:relative;overflow:hidden;
-  background:#fff5f6;
+  background:#fff;border-top:1px solid #f0e0e3;
 }
+.why-choose::marker,.why-choose + *{}
+.hero + .why-choose{margin-top:0}
 .why-choose::before{
   content:"";position:absolute;width:520px;height:520px;border-radius:50%;
   background:radial-gradient(circle,rgba(233,0,50,.07),transparent 70%);
@@ -151,10 +153,11 @@ a:hover{color:var(--red-dark)}
   display:grid;grid-template-columns:repeat(4,1fr);gap:24px;
 }
 .why-card{
-  background:#fff;padding:38px 26px 32px;border-radius:18px;
-  border:1px solid #fff;text-align:center;
+  background:linear-gradient(180deg,#fff 0%,#fff9fa 100%);
+  padding:38px 26px 32px;border-radius:18px;
+  border:1px solid #f5e0e4;text-align:center;
   position:relative;overflow:hidden;transition:all .3s ease;
-  box-shadow:0 12px 32px rgba(233,0,50,.08),0 2px 8px rgba(17,17,17,.04);
+  box-shadow:0 12px 30px rgba(233,0,50,.06);
   display:flex;flex-direction:column;align-items:center;
 }
 .why-card::before{
