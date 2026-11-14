@@ -4,7 +4,7 @@
   <div class="container">
     <span class="eyebrow">WHAT TO EXPECT</span>
     <h1>Your first appointment, step by step</h1>
-    <nav class="breadcrumb"><a href="index.php">Home</a><span class="sep">›</span>What to Expect</nav>
+    <nav class="breadcrumb"><a href="index.php">Home</a><span class="sep">/</span>What to Expect</nav>
   </div>
 </section>
 

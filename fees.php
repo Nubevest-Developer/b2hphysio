@@ -4,7 +4,7 @@
   <div class="container">
     <span class="eyebrow">FEES &amp; REBATES</span>
     <h1>Payment and claiming information</h1>
-    <nav class="breadcrumb"><a href="index.php">Home</a><span class="sep">›</span>Fees &amp; Rebates</nav>
+    <nav class="breadcrumb"><a href="index.php">Home</a><span class="sep">/</span>Fees &amp; Rebates</nav>
   </div>
 </section>
 

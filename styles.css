@@ -62,7 +62,7 @@ a:hover{color:var(--red-dark)}
 /* ===== Page Hero (sub-pages) ===== */
 .page-hero{
   background:linear-gradient(135deg,#fff5f6 0%,#ffe4e9 100%);
-  padding:60px 0;text-align:center;border-bottom:1px solid #f0d8dc;
+  padding:80px 0;text-align:center;border-bottom:1px solid #f0d8dc;
   position:relative;overflow:hidden;
 }
 .page-hero::before,.page-hero::after{
@@ -72,12 +72,12 @@ a:hover{color:var(--red-dark)}
 .page-hero::before{top:-80px;left:-80px}
 .page-hero::after{bottom:-80px;right:-80px}
 .page-hero .container{position:relative;z-index:1}
-.page-hero .eyebrow{color:var(--red);font-weight:700;font-size:13px;letter-spacing:3px;text-transform:uppercase;margin-bottom:12px;display:inline-block}
-.page-hero h1{font-size:44px;color:var(--black);font-weight:800;margin:0 0 14px;letter-spacing:-.5px}
-.breadcrumb{font-size:14px;color:#777}
+.page-hero .eyebrow{display:none}
+.page-hero h1{font-size:44px;color:var(--black);font-weight:800;margin:0 0 18px;letter-spacing:-.5px}
+.breadcrumb{font-size:15px;color:#777;display:flex;justify-content:center;gap:10px}
 .breadcrumb a{color:var(--red);text-decoration:none;font-weight:600}
 .breadcrumb a:hover{text-decoration:underline}
-.breadcrumb span.sep{margin:0 8px;color:#aaa}
+.breadcrumb span.sep{color:#999}
 
 /* ===== Hero ===== */
 .hero{background:var(--bg-pink);position:relative;overflow:hidden}

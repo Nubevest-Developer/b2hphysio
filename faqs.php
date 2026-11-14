@@ -4,7 +4,7 @@
   <div class="container">
     <span class="eyebrow">FAQS</span>
     <h1>Frequently Asked Questions</h1>
-    <nav class="breadcrumb"><a href="index.php">Home</a><span class="sep">›</span>FAQs</nav>
+    <nav class="breadcrumb"><a href="index.php">Home</a><span class="sep">/</span>FAQs</nav>
   </div>
 </section>
 

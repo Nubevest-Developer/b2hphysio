@@ -4,7 +4,7 @@
   <div class="container">
     <span class="eyebrow">ABOUT US</span>
     <h1>About B2H Physiotherapy</h1>
-    <nav class="breadcrumb"><a href="index.php">Home</a><span class="sep">&rsaquo;</span>About</nav>
+    <nav class="breadcrumb"><a href="index.php">Home</a><span class="sep">/</span>About</nav>
   </div>
 </section>
 
