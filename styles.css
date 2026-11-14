@@ -467,7 +467,7 @@ a:hover{color:var(--red-dark)}
   content:"";position:absolute;top:0;left:0;right:0;height:3px;
   background:linear-gradient(90deg,transparent 0%,var(--red) 50%,transparent 100%);
 }
-.footer-inner{display:grid;grid-template-columns:1.3fr 0.9fr 0.9fr 1.9fr;gap:36px;padding-bottom:40px}
+.footer-inner{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.5fr;gap:36px;padding-bottom:40px}
 .footer h5{
   color:#fff;margin-bottom:18px;font-size:14px;text-transform:uppercase;letter-spacing:1.5px;
   position:relative;padding-bottom:10px;font-weight:700;
