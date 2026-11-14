@@ -183,9 +183,9 @@ a:hover{color:var(--red-dark)}
 .why-icon{
   display:inline-flex;align-items:center;justify-content:center;
   width:72px;height:72px;border-radius:18px;
-  background:linear-gradient(135deg,#fff5f6 0%,#ffdde3 100%);
+  background:#fff;border:1px solid #f5e0e4;
   color:var(--red);margin-bottom:22px;transition:all .3s ease;
-  box-shadow:0 8px 20px rgba(233,0,50,.12);
+  box-shadow:0 8px 20px rgba(233,0,50,.08);
   position:relative;z-index:1;
 }
 .why-icon svg{width:34px;height:34px}
