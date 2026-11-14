@@ -241,6 +241,32 @@
   </div>
 </footer>
 
+<!-- Calendly -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<script>
+window.addEventListener('load', function() {
+  if (typeof Calendly !== 'undefined') {
+    Calendly.initBadgeWidget({
+      url: 'https://calendly.com/b2hphysio/lynnkhoo',
+      text: 'Schedule time with me',
+      color: '#e90032',
+      textColor: '#ffffff',
+      branding: false
+    });
+  }
+});
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('a[href*="calendly.com/b2hphysio"]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      if (typeof Calendly !== 'undefined') {
+        e.preventDefault();
+        Calendly.initPopupWidget({ url: 'https://calendly.com/b2hphysio/lynnkhoo' });
+      }
+    });
+  });
+});
+</script>
 <script src="script.js"></script>
 </body>
 </html>

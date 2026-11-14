@@ -8,6 +8,17 @@
   </div>
 </section>
 
+<section class="section section-alt" id="book">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">BOOK ONLINE</span>
+      <h2>Schedule your appointment</h2>
+      <p class="lead">Pick a time that works for you — book directly below.</p>
+    </div>
+    <div class="calendly-inline-widget" data-url="https://calendly.com/b2hphysio/lynnkhoo?text_color=ff0007&primary_color=0d52ba" style="min-width:320px;height:700px;"></div>
+  </div>
+</section>
+
 <section class="section" id="contact">
   <div class="container">
     <div class="section-head center">
