@@ -64,26 +64,11 @@
       <h2>Visit the clinic</h2>
       <p class="lead">Located in the heart of Sunshine — easy to reach by car or public transport.</p>
     </div>
-    <div class="map-grid">
-      <div class="map-address-card">
-        <span class="map-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
-        <h3>B2H Physiotherapy</h3>
-        <p class="map-address">1/35 Ernest Street<br/>Sunshine, VIC 3020<br/>Australia</p>
-        <div class="map-meta">
-          <div class="map-meta-row"><strong>Phone</strong><a href="tel:0401294468">0401 294 468</a></div>
-          <div class="map-meta-row"><strong>Email</strong><a href="mailto:b2hphysio@gmail.com">b2hphysio@gmail.com</a></div>
-        </div>
-        <a href="https://www.google.com/maps/dir/?api=1&destination=1%2F35+Ernest+Street+Sunshine+VIC+3020" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:6px"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
-          Get directions
-        </a>
-      </div>
-      <div class="map-embed">
-        <iframe
-          src="https://www.google.com/maps?q=1%2F35+Ernest+Street+Sunshine+VIC+3020&output=embed"
-          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-          title="Map showing 1/35 Ernest Street, Sunshine, VIC 3020"></iframe>
-      </div>
+    <div class="map-embed map-embed-full">
+      <iframe
+        src="https://www.google.com/maps?q=1%2F35+Ernest+Street+Sunshine+VIC+3020&output=embed"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        title="Map showing 1/35 Ernest Street, Sunshine, VIC 3020"></iframe>
     </div>
   </div>
 </section>
