@@ -393,16 +393,23 @@ a:hover{color:var(--red-dark)}
   background:var(--red);border-radius:2px;
 }
 .footer ul{list-style:none}
-.footer ul li{margin-bottom:10px;display:flex;align-items:center;gap:10px;font-size:14px}
-.footer ul a{color:#bbb;transition:.2s}
-.footer ul a:hover{color:var(--red);padding-left:3px}
+.footer ul li{margin-bottom:12px;display:flex;align-items:flex-start;gap:12px;font-size:14px;line-height:1.55;color:#cfcfcf}
+.footer ul a{color:#cfcfcf;transition:.2s;text-decoration:none}
+.footer ul a:hover{color:var(--red)}
 .footer-brand .logo-light{margin-bottom:14px;display:inline-flex}
 .logo-light .logo-text{color:#fff}
 .footer-brand .muted-light{color:#999;font-size:14px;line-height:1.6;margin-bottom:10px;max-width:320px}
 
+.footer-contact ul li{padding:2px 0}
 .f-icon{
   color:var(--red);display:inline-flex;align-items:center;justify-content:center;
-  width:28px;height:28px;background:rgba(233,0,50,.12);border-radius:7px;flex-shrink:0;
+  width:34px;height:34px;background:rgba(233,0,50,.10);border:1px solid rgba(233,0,50,.25);
+  border-radius:50%;flex-shrink:0;transition:all .25s ease;
+  margin-top:1px;
+}
+.footer-contact ul li:hover .f-icon{
+  background:var(--red);color:#fff;border-color:var(--red);
+  transform:scale(1.05);
 }
 
 .copyright{border-top:1px solid #222;padding:18px 0;font-size:13px;color:#777}
