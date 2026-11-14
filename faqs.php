@@ -21,7 +21,7 @@
           <details><summary>What should I wear?</summary><p>Comfortable clothing that allows easy movement.</p></details>
           <details><summary>How many sessions will I need?</summary><p>It depends on your condition and your goals — we'll discuss this with you after your assessment.</p></details>
           <details><summary>How can I book?</summary><p>Use the <a href="https://calendly.com/b2hphysio/lynnkhoo" target="_blank" rel="noopener">online booking link</a> or call the clinic on <a href="tel:0401294468">0401 294 468</a>.</p></details>
-          <details><summary>Where are you located?</summary><p>B2H Physiotherapy is based in Sunshine, Victoria. Exact address will be confirmed soon.</p></details>
+          <details><summary>Where are you located?</summary><p>B2H Physiotherapy is located at 1/35 Ernest Street, Sunshine, VIC 3020.</p></details>
           <details><summary>What payment methods are accepted?</summary><p>We accept Visa, Mastercard, EFTPOS, HICAPS, Medicare, TAC and WorkSafe. See <a href="fees.php">Fees &amp; Rebates</a> for details.</p></details>
         </div>
       </div>
